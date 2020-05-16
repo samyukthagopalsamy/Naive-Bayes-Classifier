@@ -22,10 +22,10 @@ The Naïve Bayes classifier assigns either 0 (not survived) or 1 (survived) to t
 The actual and predicted outcomes are appended to the output data frame.
 
 Values of Confusion Matrix are calculated - True Positives (TP), True Negatives (TN), False Positives (FP), False Negatives (FN)
-### Accuracy:
+#### Accuracy:
 Percentage of test set tuples that are correctly classified.
-### Precision:
+#### Precision:
 Exactness – percentage of tuples that the classifier labeled as positive are actually positive.
-### Recall: 
+#### Recall: 
 Completeness – percentage of positive tuples that the classifier label as positive.
 
