@@ -17,15 +17,9 @@
 - Embarked: Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 - Survival: Survived (0 = No; 1 = Yes) 
 
-The Naïve Bayes classifier assigns either 0 (not survived) or 1 (survived) to the target value for each instance, based on the probability estimates learned from the training data.
-
-The actual and predicted outcomes are appended to the output data frame.
-
-Values of Confusion Matrix are calculated - True Positives (TP), True Negatives (TN), False Positives (FP), False Negatives (FN)
-#### Accuracy:
-Percentage of test set tuples that are correctly classified.
-#### Precision:
-Exactness – percentage of tuples that the classifier labeled as positive are actually positive.
-#### Recall: 
-Completeness – percentage of positive tuples that the classifier label as positive.
+The Naïve Bayes classifier assigns either 0 (not survived) or 1 (survived) to the target value for each instance, based on the probability estimates learned from the training data. <br>The actual and predicted outcomes are appended to the output data frame.<br><br>
+- Values of Confusion Matrix are calculated - True Positives(TP), True Negatives(TN), False Positives(FP), False Negatives(FN)<br>
+- Accuracy: Percentage of test set tuples that are correctly classified.<br>
+- Precision: Exactness – percentage of tuples that the classifier labeled as positive are actually positive.<br>
+- Recall: Completeness – percentage of positive tuples that the classifier label as positive.<br>
 
