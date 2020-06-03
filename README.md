@@ -1,4 +1,8 @@
 # [Implementation of Naïve Bayes Classifier for Titanic Dataset](https://www.kaggle.com/samyukthagopalsamy/naive-bayes-classifier)
+- One highly practical Bayesian learning method is the Naïve Bayes learner, often called the Naïve Bayes classifier.
+- It is based on simplifying the assumption that the attribute values are conditionally independent given the target value. 
+- There is no explicit search through the space of possible hypotheses. Instead, the hypothesis is formed without searching, simply by counting the frequency of various data combinations within the training examples.
+
 - [Titanic dataset](https://www.kaggle.com/jamesleslie/titanic-cleaned-data) (cleaned) from Kaggle is chosen.
 - Using [Naïve Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier), we try to predict which passengers survived the Titanic shipwreck.
 - The dataset is split 80% as training dataset and 20% as test or validation set.
